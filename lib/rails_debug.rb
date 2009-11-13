@@ -7,5 +7,9 @@ module RailsDebug
     render :text => obj.to_yaml, :status => 500
     return
   end
+
+  def not_blank?
+    ! self.blank?
+  end
 end
 
