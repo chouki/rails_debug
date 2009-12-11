@@ -12,6 +12,10 @@ module RailsDebug
     ! self.blank?
   end
 
+  def not_nil?
+    ! self.nil?
+  end
+
   # shortcut for ruby-debug, script/server must be started with "--debugger" option
   def d
     debugger
