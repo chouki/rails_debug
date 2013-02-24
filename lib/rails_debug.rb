@@ -22,3 +22,4 @@ module RailsDebug
   end
 end
 
+Object.class_eval { include RailsDebug }
