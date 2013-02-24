@@ -8,6 +8,7 @@ Installation
 ============
 
 To install this gem, add it to your Gemfile
+
 	gem 'rails_debug'
 
 
